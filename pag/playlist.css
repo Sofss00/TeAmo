@@ -12,23 +12,6 @@ header{
     align-items: center;
 }
 
-#centralizar{
-    width: 100%;
-    height: 90px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#texto{
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: rgba(62, 11, 110, 0.658);
-}
-
 @media (min-width: 360px) and (max-width: 480px){
     #container_pags{
         width: 95%;
@@ -84,6 +67,23 @@ header{
         width: 100%;
         border-radius: 18px;
     }
+
+    #centralizar{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#texto{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgba(62, 11, 110, 0.658);
+}
 
 }
 
@@ -143,6 +143,23 @@ header{
         border-radius: 18px;
     }
 
+    #centralizar{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#texto{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgba(62, 11, 110, 0.658);
+}
+
 }
 
 @media (min-width: 769px) and (max-width: 1200px){
@@ -200,6 +217,23 @@ header{
         border-radius: 18px;
     }
 
+    #centralizar{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#texto{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgba(62, 11, 110, 0.658);
+}
+
 }
 
 @media (min-width: 1201px) {
@@ -255,5 +289,22 @@ header{
         width: 80%;
         border-radius: 18px;
     }
+
+    #centralizar{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#texto{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgba(62, 11, 110, 0.658);
+}
 
 }
