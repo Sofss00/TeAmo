@@ -1,0 +1,196 @@
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 360px) and (max-width: 480px){
+
+    #botao_recomeco button{
+        width: 40px;
+        height: 40px;
+        border: none;
+        border-radius: 60px;
+        background-color: rgb(255, 102, 153);
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        top: 110px;
+        right: 145px;
+        color: aliceblue;
+    }
+
+    #area_jogo{
+        width: 350px;
+        height: 260px;
+        background-color: rgba(255, 153, 187, 0.781);
+        display: flex;
+        position: relative;
+        top: 100px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-style: dotted;
+        border-color: rgb(250, 126, 167);
+        border-radius: 20px;
+    } 
+
+    #proxima_pag button{
+        width: 40px;
+        height: 40px;
+        border: none;
+        border-radius: 60px;
+        background-color: rgb(255, 102, 153);
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        top: 100px;
+        color: aliceblue;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    #botao_recomeco button{
+        width: 40px;
+        height: 40px;
+        border: none;
+        border-radius: 60px;
+        background-color: rgb(255, 102, 153);
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        top: 110px;
+        right: 215px;
+        color: aliceblue;
+    }
+
+
+    #area_jogo{
+        width: 490px;
+        height: 350px;
+        background-color: rgba(255, 153, 187, 0.781);
+        display: flex;
+        position: relative;
+        top: 100px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-style: dotted;
+        border-color: rgb(250, 126, 167);
+        border-radius: 20px;
+    } 
+
+    #proxima_pag button{
+        width: 40px;
+        height: 40px;
+        border: none;
+        border-radius: 60px;
+        background-color: rgb(255, 102, 153);
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        top: 100px;
+        color: aliceblue;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1200px){
+
+    #botao_recomeco button{
+        width: 40px;
+        height: 40px;
+        border: none;
+        border-radius: 60px;
+        background-color: rgb(255, 102, 153);
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        top: 25px;
+        right: 415px;
+        color: aliceblue;
+    }
+
+    #area_jogo{
+        width: 900px;
+        height: 450px;
+        background-color: rgba(255, 153, 187, 0.781);
+        display: flex;
+        position: relative;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        top: 10px;
+        border-style: dotted;
+        border-color: rgb(250, 126, 167);
+        border-radius: 20px;
+    }
+
+    #proxima_pag button{
+        width: 40px;
+        height: 40px;
+        border: none;
+        border-radius: 60px;
+        background-color: rgb(255, 102, 153);
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        top: 5px;
+        color: aliceblue;
+    }
+
+}
+
+@media (min-width: 1201px) {
+
+    #botao_recomeco button{
+        width: 40px;
+        height: 40px;
+        border: none;
+        border-radius: 60px;
+        background-color: rgb(255, 102, 153);
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        top: 45px;
+        right: 420px;
+        color: aliceblue;
+    }
+
+    #area_jogo{
+        width: 900px;
+        height: 600px;
+        background-color: rgba(255, 153, 187, 0.781);
+        display: flex;
+        position: relative;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        top: 30px;
+        border-style: dotted;
+        border-color: rgb(250, 126, 167);
+        border-radius: 20px;
+    }
+
+    #proxima_pag button{
+        width: 40px;
+        height: 40px;
+        border: none;
+        border-radius: 60px;
+        background-color: rgb(255, 102, 153);
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        top: 25px;
+        color: aliceblue;
+    }
+
+}

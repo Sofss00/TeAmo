@@ -1,0 +1,348 @@
+body{
+    margin: 0px;
+    background-color: rgba(235, 194, 253, 0.603);
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(108, 12, 187, 0.733);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 360px) and (max-width: 480px){
+    #container_pags{
+        width: 95%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    #container_pags button {
+        width: 63px;
+        height: 30px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 10px;
+        background-color: rgba(202, 122, 255, 0.705);
+        color: aliceblue;
+        border: none;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    .b_5{
+        font-size: 15px;
+        font-weight: bolder;
+    }
+
+    #papel {
+        position: relative;
+        width: 360px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .envelope {
+        width: 100%;
+        display: block;
+    }
+    
+    #texto {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 95%;
+        height: 550px;
+        margin-top: 20px;
+        margin-left: 13px;
+        background-color: rgb(181, 135, 233);
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        padding: 20px;
+        box-sizing: border-box;
+        pointer-events: none; /* Ensures the text container doesn't interfere with clicks */
+    }
+    
+    #papel.show-text #texto {
+        opacity: 1;
+        pointer-events: auto; /* Allows interaction with the text container */
+    }
+    
+    #texto p {
+        margin: 0;
+        color: rgba(24, 4, 51, 0.767);
+        font-size: 15px;
+        font-weight: 510;
+        text-align: left;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    #container_pags{
+        width: 98%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    #container_pags button {
+        width: 70px;
+        height: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        background-color: rgba(202, 122, 255, 0.705);
+        color: aliceblue;
+        border: none;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    .b_5{
+        font-size: 15px;
+        font-weight: bolder;
+    }
+    
+    #papel {
+        position: relative;
+        left: 35px;
+        width: 450px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .envelope {
+        width: 100%;
+        display: block;
+    }
+    
+    #texto {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 95%;
+        height: 630px;
+        margin-top: 20px;
+        margin-left: 13px;
+        background-color: rgb(181, 135, 233);
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        padding: 20px;
+        box-sizing: border-box;
+        pointer-events: none; /* Ensures the text container doesn't interfere with clicks */
+    }
+    
+    #papel.show-text #texto {
+        opacity: 1;
+        pointer-events: auto; /* Allows interaction with the text container */
+    }
+    
+    #texto p {
+        margin: 0;
+        color: rgba(24, 4, 51, 0.767);
+        font-size: 16px;
+        font-weight: 510;
+        text-align: left;
+    }
+
+    
+    }
+
+    @media (min-width: 769px) and (max-width: 1200px){
+        #container_pags{
+            width: 98%;
+            height: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        a{
+            text-decoration: none;
+        }
+        
+        #container_pags button {
+            width: 70px;
+            height: 30px;
+            margin-left: 15px;
+            margin-right: 15px;
+            background-color: rgba(202, 122, 255, 0.705);
+            color: aliceblue;
+            border: none;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+        
+        .b_5{
+            font-size: 15px;
+            font-weight: bolder;
+        }
+
+        #papel {
+            position: relative;
+            left: 210px;
+            width: 650px;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .envelope {
+            width: 100%;
+            display: block;
+        }
+        
+        #texto {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 95%;
+            height: 450px;
+            margin-top: 55px;
+            margin-left: 13px;
+            background-color: rgb(181, 135, 233);
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            padding: 20px;
+            box-sizing: border-box;
+            pointer-events: none; /* Ensures the text container doesn't interfere with clicks */
+        }
+        
+        #papel.show-text #texto {
+            opacity: 1;
+            pointer-events: auto; /* Allows interaction with the text container */
+        }
+        
+        #texto p {
+            margin: 0;
+            color: rgba(24, 4, 51, 0.767);
+            font-size: 18px;
+            font-weight: 510;
+            text-align: left;
+        }
+    
+
+    }
+
+    @media (min-width: 1201px) {
+        #container_pags{
+            width: 98%;
+            height: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        a{
+            text-decoration: none;
+        }
+        
+        #container_pags button {
+            width: 70px;
+            height: 30px;
+            margin-left: 15px;
+            margin-right: 15px;
+            background-color: rgba(202, 122, 255, 0.705);
+            color: aliceblue;
+            border: none;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+        
+        .b_5{
+            font-size: 15px;
+            font-weight: bolder;
+        }
+
+        #papel {
+            position: relative;
+            left: 650px;
+            width: 650px;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .envelope {
+            width: 100%;
+            display: block;
+        }
+        
+        #texto {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 97%;
+            height: 460px;
+            margin-top: 55px;
+            margin-left: 13px;
+            background-color: rgb(181, 135, 233);
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            padding: 20px;
+            box-sizing: border-box;
+            pointer-events: none; /* Ensures the text container doesn't interfere with clicks */
+        }
+        
+        #papel.show-text #texto {
+            opacity: 1;
+            pointer-events: auto; /* Allows interaction with the text container */
+        }
+        
+        #texto p {
+            margin: 0;
+            color: rgba(24, 4, 51, 0.767);
+            font-size: 18px;
+            font-weight: 510;
+            text-align: left;
+        }
+
+    }

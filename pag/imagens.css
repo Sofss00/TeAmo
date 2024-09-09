@@ -1,0 +1,505 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #38046981;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(108, 12, 187, 0.733);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 360px) and (max-width: 480px){
+        #container_pags {
+            width: 95%;
+            height: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        a {
+            text-decoration: none;
+        }
+    
+        #container_pags button {
+            width: 63px;
+            height: 30px;
+            margin-left: 5px;
+            margin-right: 5px;
+            margin-top: 10px;
+            background-color: rgba(202, 122, 255, 0.705);
+            color: aliceblue;
+            border: none;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+    
+        .b_5 {
+            font-size: 15px;
+            font-weight: bolder;
+        }
+    
+        #controle {
+            width: 100%;
+            height: 505px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .video-container {
+            position: relative;
+            width: 100%;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            margin-left: 55px;
+            left: 100px;
+        }
+    
+        video {
+            width: 600%; /* Ajuste a largura do vídeo */
+            height: auto; /* Mantém a proporção do vídeo */
+            border-radius: 20px;
+        }
+    
+        .carousel-container {
+            width: 500%; /* Ajuste conforme necessário */
+            height: 95%;
+            position: relative;
+            right: 65px;
+            margin: auto;
+            overflow: hidden;
+        }
+    
+        .carousel-slide {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: opacity 1s ease-in-out;
+        }
+    
+        .carousel-slide img {
+            border-radius: 20px;
+            border: #000000 solid;
+            max-width: 100%;
+            max-height: 95%;
+            display: block;
+            object-fit: cover;
+        }
+    
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+    
+        .modal-content {
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 50%;
+        }
+    
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #fff;
+            font-size: 40px;
+            font-weight: bold;
+        }
+    
+        .close:hover,
+        .close:focus {
+            color: #bbb;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    }
+
+@media (min-width: 481px) and (max-width: 768px){
+    #container_pags{
+        width: 98%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    #container_pags button {
+        width: 70px;
+        height: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        background-color: rgba(202, 122, 255, 0.705);
+        color: aliceblue;
+        border: none;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    .b_5{
+        font-size: 15px;
+        font-weight: bolder;
+    }
+
+    #controle {
+        width: 100%;
+        height: 505px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .video-container {
+        position: relative;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: 55px;
+        left: 130px;
+    }
+
+    video {
+        width: 250%; /* Ajuste a largura do vídeo */
+        height: auto; /* Mantém a proporção do vídeo */
+        border-radius: 20px;
+    }
+
+    .carousel-container {
+        width: 200%; /* Ajuste conforme necessário */
+        height: 100%;
+        position: relative;
+        top: 50px;
+        right: 105px;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .carousel-slide {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: opacity 1s ease-in-out;
+    }
+
+    .carousel-slide img {
+        border-radius: 20px;
+        border: #000000 solid;
+        max-width: 100%;
+        max-height: 95%;
+        display: block;
+        object-fit: cover;
+    }
+
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .modal-content {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 50%;
+    }
+
+    .close {
+        position: absolute;
+        top: 15px;
+        right: 35px;
+        color: #fff;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px){
+    #container_pags{
+        width: 98%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    #container_pags button {
+        width: 70px;
+        height: 30px;
+        margin-left: 15px;
+        margin-right: 15px;
+        background-color: rgba(202, 122, 255, 0.705);
+        color: aliceblue;
+        border: none;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    .b_5{
+        font-size: 15px;
+        font-weight: bolder;
+    }
+
+    #controle {
+        width: 100%;
+        height: 505px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .video-container {
+        position: relative;
+        width: 50%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        margin-left: 55px;
+        left: 320px;
+    }
+
+    video {
+        width: 80%; /* Ajuste a largura do vídeo */
+        height: auto; /* Mantém a proporção do vídeo */
+        border-radius: 20px;
+    }
+
+    .carousel-container {
+        width: 100%; /* Ajuste conforme necessário */
+        height: 90%;
+        position: relative;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .carousel-slide {
+        width: 100%;
+        height: 100%;
+        transition: opacity 1s ease-in-out;
+    }
+
+    .carousel-slide img {
+        border-radius: 20px;
+        border: #000000 solid;
+        max-width: 100%;
+        max-height: 95%;
+        display: block;
+        object-fit: cover;
+    }
+
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .modal-content {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 50%;
+    }
+
+    .close {
+        position: absolute;
+        top: 15px;
+        right: 35px;
+        color: #fff;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 1201px) {
+
+    #container_pags{
+        width: 98%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    #container_pags button {
+        width: 70px;
+        height: 30px;
+        margin-left: 15px;
+        margin-right: 15px;
+        background-color: rgba(202, 122, 255, 0.705);
+        color: aliceblue;
+        border: none;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    .b_5{
+        font-size: 15px;
+        font-weight: bolder;
+    }
+
+    #controle {
+        width: 100%;
+        height: 505px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .video-container {
+        position: relative;
+        width: 40%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        margin-left: 55px;
+        left: 640px;
+    }
+
+    video {
+        width: 80%; /* Ajuste a largura do vídeo */
+        height: auto; /* Mantém a proporção do vídeo */
+        border-radius: 20px;
+    }
+
+    .carousel-container {
+        width: 100%; /* Ajuste conforme necessário */
+        height: 130%;
+        position: relative;
+        top: 50px;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .carousel-slide {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        left: 200px;
+        display: flex;
+        align-items: center;
+        transition: opacity 1s ease-in-out;
+    }
+
+    .carousel-slide img {
+        border-radius: 20px;
+        border: #000000 solid;
+        max-width: 100%;
+        max-height: 95%;
+        display: block;
+        object-fit: cover;
+    }
+
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .modal-content {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 50%;
+    }
+
+    .close {
+        position: absolute;
+        top: 15px;
+        right: 35px;
+        color: #fff;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+}

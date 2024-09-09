@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Te Amo💝</title>
+    <link rel="stylesheet" href="imagens.css">
+</head>
+<body>
+
+    <header id="container_cabecalho">
+        <div id="container_pags">
+            <a href="comeco.html"><button class="b_1">Início</button></a>
+            <a href="texto.html"><button class="b_2">Texto</button></a>
+            <a href="imagens.html"><button class="b_3">Imagens</button></a>
+            <a href="playlist.html"><button class="b_5">…</button></a>
+        </div>
+    </header>
+
+    <div id="controle">
+    <div class="video-container">
+        <video id="intro-video" width="100%" controls>
+            <source src="img_pag/video1.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
+    </div>
+
+
+    <div class="carousel-container" id="carousel-container">
+        <!-- As imagens serão adicionadas aqui pelo JavaScript -->
+    </div>
+
+    <!-- Modal para mostrar imagens ampliadas -->
+    <div id="image-modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-image">
+    </div>
+</div>
+
+    <script src="imagens.js"></script>
+</body>
+</html>
